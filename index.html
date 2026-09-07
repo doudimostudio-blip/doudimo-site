@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Doudimo Studio</title>
-<meta name="description" content="Doudimo Studio — des jeux ludo-éducatifs pour les enfants de 2 à 6 ans, sans publicité, sans collecte de données. Educational games for children aged 2–6, no ads, no data collection.">
+<meta name="description" content="Doudimo Studio — des jeux ludo-éducatifs pour les enfants de 2 à 6 ans, sans publicité, sans collecte de données. Educational games for children aged 2–6, no ads, no data collection. Juegos educativos · Lernspiele · Jogos educativos.">
 <style>
   body { font-family: system-ui, sans-serif; margin: 0; color: #3B3242;
          background: linear-gradient(#BDE3F5, #FFF3DC); min-height: 100vh; }
@@ -19,6 +19,8 @@
   .studio { display: inline-block; margin-top: 6px; padding: 3px 12px; border-radius: 999px;
             background: #7E57C2; color: #fff; font-weight: 800; letter-spacing: .18em;
             font-size: .8rem; }
+  nav.langues { display: flex; flex-wrap: wrap; gap: .5em 1.1em; font-weight: 700;
+                margin: 22px 0 6px; }
   .langue { font-size: .8rem; color: #7E57C2; margin: 18px 0 6px; letter-spacing: .12em; }
   .carte { background: #fff; border-radius: 16px; padding: 22px 26px;
            box-shadow: 0 4px 16px rgba(0,0,0,.08); margin-top: 16px; }
@@ -37,14 +39,24 @@
     </div>
   </header>
 
+  <nav class="langues" aria-label="Langues">
+    <a href="#fr">🇫🇷 Français</a>
+    <a href="#en">🇬🇧 English</a>
+    <a href="#es">🇪🇸 Español</a>
+    <a href="#de">🇩🇪 Deutsch</a>
+    <a href="#pt">🇧🇷 Português</a>
+  </nav>
+
+  <section id="fr">
   <div class="langue">FRANÇAIS</div>
   <p>Des jeux ludo-éducatifs pour les enfants de 2 à 6 ans —
      sans publicité, sans collecte de données, jouables hors ligne.</p>
   <div class="carte">
     <h2>Doudimo Puzzle</h2>
     <p>Des puzzles d'animaux, de véhicules, de contes et de jardins,
-       en français et en anglais, avec les personnages Doudimo.</p>
-    <p><a href="puzzle/confidentialite.html">Politique de confidentialité</a></p>
+       avec les personnages Doudimo. Chaque image est nommée à voix haute,
+       en français, anglais, espagnol, allemand ou portugais.</p>
+    <p><a href="puzzle/confidentialite.html#fr">Politique de confidentialité</a></p>
   </div>
   <div class="carte">
     <h2>Doudimo Memory</h2>
@@ -55,26 +67,99 @@
     <h2>Support et contact</h2>
     <p><a href="mailto:doudimo.studio@gmail.com">doudimo.studio@gmail.com</a></p>
   </div>
+  </section>
 
   <hr>
-  <div class="langue" lang="en">ENGLISH</div>
-  <p lang="en">Educational games for children aged 2 to 6 —
+  <section id="en" lang="en">
+  <div class="langue">ENGLISH</div>
+  <p>Educational games for children aged 2 to 6 —
      no ads, no data collection, playable offline.</p>
-  <div class="carte" lang="en">
+  <div class="carte">
     <h2>Doudimo Puzzle</h2>
     <p>Puzzles of animals, vehicles, fairy tales and gardens,
-       in French and English, with the Doudimo characters.</p>
-    <p><a href="puzzle/confidentialite.html#privacy-policy--doudimo-puzzle">Privacy policy</a></p>
+       with the Doudimo characters. Every picture is named out loud,
+       in French, English, Spanish, German or Portuguese.</p>
+    <p><a href="puzzle/confidentialite.html#en">Privacy policy</a></p>
   </div>
-  <div class="carte" lang="en">
+  <div class="carte">
     <h2>Doudimo Memory</h2>
     <p>The matching-pairs game.</p>
     <p><a href="memory/confidentialite.html">Privacy policy</a></p>
   </div>
-  <div class="carte" lang="en">
+  <div class="carte">
     <h2>Support and contact</h2>
     <p><a href="mailto:doudimo.studio@gmail.com">doudimo.studio@gmail.com</a></p>
   </div>
+  </section>
+
+  <hr>
+  <section id="es" lang="es">
+  <div class="langue">ESPAÑOL</div>
+  <p>Juegos educativos para niños de 2 a 6 años —
+     sin publicidad, sin recopilación de datos, para jugar sin conexión.</p>
+  <div class="carte">
+    <h2>Doudimo Puzzle</h2>
+    <p>Puzles de animales, vehículos, cuentos y jardines,
+       con los personajes Doudimo. Cada imagen se nombra en voz alta,
+       en francés, inglés, español, alemán o portugués.</p>
+    <p><a href="puzzle/confidentialite.html#es">Política de privacidad</a></p>
+  </div>
+  <div class="carte">
+    <h2>Doudimo Memory</h2>
+    <p>El juego de las parejas.</p>
+    <p><a href="memory/confidentialite.html">Política de privacidad</a></p>
+  </div>
+  <div class="carte">
+    <h2>Soporte y contacto</h2>
+    <p><a href="mailto:doudimo.studio@gmail.com">doudimo.studio@gmail.com</a></p>
+  </div>
+  </section>
+
+  <hr>
+  <section id="de" lang="de">
+  <div class="langue">DEUTSCH</div>
+  <p>Lernspiele für Kinder von 2 bis 6 Jahren —
+     ohne Werbung, ohne Datenerhebung, offline spielbar.</p>
+  <div class="carte">
+    <h2>Doudimo Puzzle</h2>
+    <p>Puzzles mit Tieren, Fahrzeugen, Märchen und Gärten,
+       mit den Doudimo-Figuren. Jedes Bild wird laut benannt,
+       auf Französisch, Englisch, Spanisch, Deutsch oder Portugiesisch.</p>
+    <p><a href="puzzle/confidentialite.html#de">Datenschutzerklärung</a></p>
+  </div>
+  <div class="carte">
+    <h2>Doudimo Memory</h2>
+    <p>Das Paare-Spiel.</p>
+    <p><a href="memory/confidentialite.html">Datenschutzerklärung</a></p>
+  </div>
+  <div class="carte">
+    <h2>Support und Kontakt</h2>
+    <p><a href="mailto:doudimo.studio@gmail.com">doudimo.studio@gmail.com</a></p>
+  </div>
+  </section>
+
+  <hr>
+  <section id="pt" lang="pt">
+  <div class="langue">PORTUGUÊS</div>
+  <p>Jogos educativos para crianças de 2 a 6 anos —
+     sem publicidade, sem coleta de dados, para jogar off-line.</p>
+  <div class="carte">
+    <h2>Doudimo Puzzle</h2>
+    <p>Quebra-cabeças de animais, veículos, contos e jardins,
+       com os personagens Doudimo. Cada imagem é dita em voz alta,
+       em francês, inglês, espanhol, alemão ou português.</p>
+    <p><a href="puzzle/confidentialite.html#pt">Política de privacidade</a></p>
+  </div>
+  <div class="carte">
+    <h2>Doudimo Memory</h2>
+    <p>O jogo dos pares.</p>
+    <p><a href="memory/confidentialite.html">Política de privacidade</a></p>
+  </div>
+  <div class="carte">
+    <h2>Suporte e contato</h2>
+    <p><a href="mailto:doudimo.studio@gmail.com">doudimo.studio@gmail.com</a></p>
+  </div>
+  </section>
 </main>
 </body>
 </html>
